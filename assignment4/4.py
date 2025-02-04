@@ -1,0 +1,12 @@
+import numpy as np
+arr=np.linspace(10,100,25)
+print(arr)
+print(arr.shape)
+print(arr.size)
+print(arr.dtype)
+print(arr.ndim)
+print(arr.nbytes)
+print(arr.reshape(-1,1))
+arr=arr.reshape(5,5)
+print(arr)
+print(arr.T)

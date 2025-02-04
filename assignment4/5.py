@@ -1,0 +1,13 @@
+import numpy as np
+arr=np.array([10,20,30,40,50,60,70,80,90,15,20,35])
+arr=arr.reshape(3,4)
+print(arr)
+print(np.mean(arr))
+print(np.median(arr))
+print(np.max(arr))
+print(np.min(arr))
+print(np.unique(arr))
+reshaped_arr=arr.reshape(4,3)
+print(reshaped_arr)
+resized_arr=np.resize(arr,(2,3))
+print(resized_arr)
